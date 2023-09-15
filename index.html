@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Домашнее задание</title>
+    <style>
+        .preloader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+            background: #fff;
+            z-index: 1001;
+        }
+
+        .preloader__image {
+            position: relative;
+            top: 40%;
+            left: 40%;
+            width: 500px;
+            height: 500px;
+            margin-top: -32px;
+            margin-left: -32px;
+            background: url('1.gif') no-repeat 25% 25%;
+        }
+
+        .loaded_hiding .preloader {
+            transition: 0.3s opacity;
+            opacity: 0;
+        }
+
+        .loaded .preloader {
+            display: none;
+        }
+
+        body {
+            background-color: #343333;
+        }
+
+
+        .image_dom {
+            display: inline-flex;
+        }
+
+        .image_1 {
+            padding: 40px;
+        }
+
+        .image_2 {
+            width: 280px;
+            border-radius: 12px;
+            padding: 2px;
+        }
+
+        .image_2:hover {
+            transition: transform 0.3s;
+            filter: drop-shadow(0px 0px 5px #C9C9C0);
+            transform: scale(1.2);
+        }
+
+        .button1 {
+            appearance: none;
+            border: 0;
+            border-radius: 5px;
+            background: #4676D7;
+            color: #fff;
+            padding: 8px 16px;
+            font-size: 16px;
+        }
+        .button1:hover {
+            filter: drop-shadow(0px 0px 1px #C9C9C0);
+        }
+        .buttom1focus {
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="mbutton">
+            <button type="button" class="button1" onclick="window.open('index2.html')"> Открыть </button>
+    </div>
+
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+
+    <div class="image_dom">
+        <div class="image_1">
+            <img class="image_2" src="https://w.forfun.com/fetch/e9/e924d51673dc1577fa97b60806a90297.jpeg"/>
+            <img class="image_2" src="https://w.forfun.com/fetch/21/21d5ad6e9e080960a0f91e83f188b05e.jpeg"/>
+            <img class="image_2" src="https://free-images.com/lg/008d/bridge_transition_water_wood.jpg"/>
+            <img class="image_2" src="https://foni.club/uploads/posts/2022-12/1672419489_foni-club-p-kartinki-na-telefon-android-vertikalnie-ne-36.jpg"/>
+            <img class="image_2" src="https://w.forfun.com/fetch/a9/a90891f7ed012a539629985d49706451.jpeg"/>
+            <img class="image_2" src="https://oboi-telefon.ru/wallpapers/76268/39643.jpg"/>
+            <img class="image_2" src="https://cdn12.picryl.com/photo/2016/12/31/cherry-blossom-bloom-b54a58-1024.jpg"/>
+            <img class="image_2" src="https://i01.fotocdn.net/s109/fe80f041b924df53/public_pin_l/2433093907.jpg"/>
+            <img class="image_2" src="https://searchthisweb.com/wallpaper/thumb1000/main1000_mountains_4000x5328_nwget.jpg"/>
+            <img class="image_2" src="https://i.pinimg.com/originals/14/5f/ad/145fad3254c00968e7344a8abb0ef88e.jpg"/>
+            <img class="image_2" src="https://i.pinimg.com/originals/ed/2b/2a/ed2b2a482d551269ce9bb3da67f9031a.jpg"/>
+            <img class="image_2" src="https://i.pinimg.com/originals/73/b7/0d/73b70d445a18025778b773387551df1a.jpg"/>
+            <img class="image_2" src="https://puzzlepalace.com.au/wp-content/uploads/2020/10/Funny-Cat-on-Big-Ben-1500-Piece-Jigsaw-Puzzle-Ravensburger.jpg"/>
+            <img class="image_2" src="https://i1.wp.com/4kwallpapers.com/images/wallpapers/new-york-city-twilight-sunset-cityscape-city-lights-5k-768x1024-1543.jpg"/>
+            <img class="image_2" src="https://i0.u-mama.ru/d0a/07e/e3a/dde111c85a1be374e925be8c27434fb8.jpg"/>
+            <img class="image_2" src="https://www.wallpapertip.com/wmimgs/83-837055_paysage-en-mode-portrait.jpg"/>
+            <img class="image_2" src="https://i01.fotocdn.net/s109/fe80f041b924df53/public_pin_l/2433093907.jpg"/>
+            <img class="image_2" src="https://searchthisweb.com/wallpaper/thumb1000/main1000_mountains_4000x5328_nwget.jpg"/>
+            <img class="image_2" src="https://i.pinimg.com/originals/14/5f/ad/145fad3254c00968e7344a8abb0ef88e.jpg"/>
+            <img class="image_2" src="https://i.pinimg.com/originals/ed/2b/2a/ed2b2a482d551269ce9bb3da67f9031a.jpg"/>
+            <img class="image_2" src="https://i.pinimg.com/originals/73/b7/0d/73b70d445a18025778b773387551df1a.jpg"/>
+            <img class="image_2" src="https://puzzlepalace.com.au/wp-content/uploads/2020/10/Funny-Cat-on-Big-Ben-1500-Piece-Jigsaw-Puzzle-Ravensburger.jpg"/>
+            <img class="image_2" src="https://i1.wp.com/4kwallpapers.com/images/wallpapers/new-york-city-twilight-sunset-cityscape-city-lights-5k-768x1024-1543.jpg"/>
+            <img class="image_2" src="https://i0.u-mama.ru/d0a/07e/e3a/dde111c85a1be374e925be8c27434fb8.jpg"/>
+            <img class="image_2" src="https://www.wallpapertip.com/wmimgs/83-837055_paysage-en-mode-portrait.jpg"/
+            <img class="image_2" src="https://w.forfun.com/fetch/e9/e924d51673dc1577fa97b60806a90297.jpeg"/>
+            <img class="image_2" src="https://w.forfun.com/fetch/21/21d5ad6e9e080960a0f91e83f188b05e.jpeg"/>
+            <img class="image_2" src="https://free-images.com/lg/008d/bridge_transition_water_wood.jpg"/>
+            <img class="image_2" src="https://foni.club/uploads/posts/2022-12/1672419489_foni-club-p-kartinki-na-telefon-android-vertikalnie-ne-36.jpg"/>
+            <img class="image_2" src="https://w.forfun.com/fetch/a9/a90891f7ed012a539629985d49706451.jpeg"/>
+            <img class="image_2" src="https://oboi-telefon.ru/wallpapers/76268/39643.jpg"/>
+            <img class="image_2" src="https://cdn12.picryl.com/photo/2016/12/31/cherry-blossom-bloom-b54a58-1024.jpg"/>
+            <img class="image_2" src="https://i01.fotocdn.net/s109/fe80f041b924df53/public_pin_l/2433093907.jpg"/>
+            <img class="image_2" src="https://searchthisweb.com/wallpaper/thumb1000/main1000_mountains_4000x5328_nwget.jpg"/>
+            <img class="image_2" src="https://i.pinimg.com/originals/14/5f/ad/145fad3254c00968e7344a8abb0ef88e.jpg"/>
+            <img class="image_2" src="https://i.pinimg.com/originals/ed/2b/2a/ed2b2a482d551269ce9bb3da67f9031a.jpg"/>
+            <img class="image_2" src="https://i.pinimg.com/originals/73/b7/0d/73b70d445a18025778b773387551df1a.jpg"/>
+            <img class="image_2" src="https://puzzlepalace.com.au/wp-content/uploads/2020/10/Funny-Cat-on-Big-Ben-1500-Piece-Jigsaw-Puzzle-Ravensburger.jpg"/>
+            <img class="image_2" src="https://i1.wp.com/4kwallpapers.com/images/wallpapers/new-york-city-twilight-sunset-cityscape-city-lights-5k-768x1024-1543.jpg"/>
+            <img class="image_2" src="https://i0.u-mama.ru/d0a/07e/e3a/dde111c85a1be374e925be8c27434fb8.jpg"/>
+            <img class="image_2" src="https://www.wallpapertip.com/wmimgs/83-837055_paysage-en-mode-portrait.jpg"/>
+            <img class="image_2" src="https://i01.fotocdn.net/s109/fe80f041b924df53/public_pin_l/2433093907.jpg"/>
+            <img class="image_2" src="https://searchthisweb.com/wallpaper/thumb1000/main1000_mountains_4000x5328_nwget.jpg"/>
+            <img class="image_2" src="https://i.pinimg.com/originals/14/5f/ad/145fad3254c00968e7344a8abb0ef88e.jpg"/>
+            <img class="image_2" src="https://i.pinimg.com/originals/ed/2b/2a/ed2b2a482d551269ce9bb3da67f9031a.jpg"/>
+            <img class="image_2" src="https://i.pinimg.com/originals/73/b7/0d/73b70d445a18025778b773387551df1a.jpg"/>
+            <img class="image_2" src="https://puzzlepalace.com.au/wp-content/uploads/2020/10/Funny-Cat-on-Big-Ben-1500-Piece-Jigsaw-Puzzle-Ravensburger.jpg"/>
+            <img class="image_2" src="https://i1.wp.com/4kwallpapers.com/images/wallpapers/new-york-city-twilight-sunset-cityscape-city-lights-5k-768x1024-1543.jpg"/>
+            <img class="image_2" src="https://i0.u-mama.ru/d0a/07e/e3a/dde111c85a1be374e925be8c27434fb8.jpg"/>
+        </div>
+    </div>
+        <script>
+        window.onload=function(){
+            document.body.classList.add('.loaded_hidding');
+            window.setTimeout(function(){
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hidding');
+            },1000);
+        }
+    </script>
+</body>
+</html>
